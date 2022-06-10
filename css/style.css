@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ebebeb;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  font-size: 1.5em;
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.container,
+.details-container {
+  max-width: 90vw;
+  margin: 0px auto;
+}
+
+.card {
+  text-align: center;
+  margin: 1rem;
+  background: white;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.loader {
+  text-align: center;
+}
+
+.loader img {
+  max-width: 200px;
+  max-height: auto;
+}
+
+.beer-details {
+  background-color: white;
+  max-width: 500px;
+  margin: 20px auto;
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+.beer-image {
+  display: flex;
+  justify-content: center;
+}
+
+.beer-image img {
+  height: 130px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+form {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 1em;
+  border-radius: 0.2em;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+#submit-button {
+  background: white;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  width: 150px;
+  padding: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.success-message {
+  background-color: #14f8a4;
+  border-radius: 0.5em;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.error-form {
+  display: none;
+  margin-top: 3px;
+  color: orangered;
+}
