@@ -31,5 +31,5 @@ function createHTML(beers, i) {
                                   <p>${beers[i].tagline}</p>
                                   <p>First brewed: ${beers[i].first_brewed}</p>
                                   </div>
-                                  </a>`;
+                                  </a>`
 }
