@@ -25,7 +25,7 @@ async function fetchBeers() {
 fetchBeers();
 
 function createHTML(beers, i) {
-  beerContainer.innerHTML += `<a href="/pages/details.html?id=${beers[i].id}">
+  beerContainer.innerHTML += `<a href="pages/details.html?id=${beers[i].id}">
                                   <div class="card">
                                   <h2>${beers[i].name}</h2>
                                   <p>${beers[i].tagline}</p>
